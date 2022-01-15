@@ -13,39 +13,41 @@
   <header>
     <h1>Mirco Warnck</h1>
     <nav>
-      <a href="#biography">Biography</a>
-      <a href="#contact">Contact</a>
+      <ul>
+        <li>
+          <a class="nav-links" href="#biography">Biography</a>
+        </li>
+        <li>
+          <a class="nav-links" href="#contact">Contact</a>
+        </li>
+      </ul>
     </nav>
   </header>
-
-  <div class="wrapper">
-    <figure>
-      <img src="https://source.unsplash.com/random/600x300" alt="">
-      <figcaption>A random image for illustration</figcaption>
-    </figure>
-  
-
-    <section id="skills">
-      <h2>Hard Skills</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Project management</li>
-      </ul>
-
-      <h2>Soft Skills</h2>
-      <ul>
-        <li>team-minded</li>
-        <li>reliable</li>
-        <li>flexible</li>
-        <li>creative</li>
-      </ul>
+  <main>
+    <section id="image-skills" class="wrapper">
+      <figure class="illustration">
+        <img class="header-img" src="https://source.unsplash.com/random/400x300" alt="">
+        <figcaption>A random image for illustration</figcaption>
+      </figure> 
+      <div class="skills">
+        <h2>Hard Skills</h2>
+        <ul class="skills-trans">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Project management</li>
+        </ul>
+        <h2>Soft Skills</h2>
+        <ul class="skills-trans">
+          <li>team-minded</li>
+          <li>reliable</li>
+          <li>flexible</li>
+          <li>creative</li>
+        </ul>
+      </div>
     </section>
-  </div>
-  
-  <section id="biography" class="wrapper">
-    <div>
+    <section id="biography" class="wrapper">
+      <div>
         <h2>Biography</h2>
         <div>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -54,64 +56,75 @@
             distinctio ullam incidunt saepe molestias.</p>
         </div>
       </div>
-      <div>
+      <div class="table-body">
         <table>
           <caption>CV</caption>
-          <tr>
-            <th>Year</th>
-            <th>Station</th>
-          </tr>
-          <tr>
-            <td>year1</td>
-            <td>station1</td>
-          </tr>
-          <tr>
-            <td>year2</td>
-            <td>station2</td>
-          </tr>
-          <tr>
-            <td>year3</td>
-            <td>station3</td>
-          </tr>
-          <tr>
-            <td>year4</td>
-            <td>station4</td>
-          </tr>
-          <tr>
-            <td>year5</td>
-            <td>station5</td>
-          </tr>
+          <tbody>
+            <tr>
+              <th>Year</th>
+              <th>Station</th>
+            </tr>
+            <tr>
+              <td class="left-column">01/2022 - now</td>
+              <td class="right-column">Bootcamp Web Development</td>
+            </tr>
+            <tr>
+              <td class="left-column">04/2017 - 12/2021</td>
+              <td class="right-column">work experience #2</td>
+            </tr>
+            <tr>
+              <td class="left-column">08/2014 - 03/2017</td>
+              <td class="right-column">work experience #1</td>
+            </tr>
+            <tr>
+              <td class="left-column">09/2009 - 07/2014</td>
+              <td class="right-column">Bachelor of Science</td>
+            </tr>
+            <tr>
+              <td class="left-column">06/2009</td>
+              <td class="right-column">Abitur</td>
+            </tr>
+          </tbody>
         </table>
       </div>
-  </section>
-
-  <section id="contact" class="wrapper">
-    <div>
-      <h2>Contact</h2>
-      <div>
-        <p>Phone:</p>
-        <p>+49 / 1234 567890</p>
-        <p>Mail:</p>
-        <p>fish@neuefische.de</p>
+    </section>
+    <section id="contact" class="wrapper">
+      <div class="phone-mail">
+        <h2>Contact</h2>
+        <div class="wrapper">
+           <div class="phone">
+            <p><strong>Phone:</strong></p>
+            <p>+49 / 1234 567890</p>
+          </div> 
+          <div class="mail">
+            <p><strong>Mail:</strong></p>
+            <p><a href="mailto:fish@neuefische.de">fish@neuefische.de</a></p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="wrapper">
-      <p>Find me on the following networks:</p>
-      <figure>
-        <a href="https://github.com" target="_blank"><img src="/images/Button-GitHub-black.png" alt="" width="300" height="200"></a> 
-        <figcaption>GitHub</figcaption>
-      </figure>
-      <figure>
-        <a href="https://codepen.io" target="_blank"><img src="/images/Button-Codepen.png" alt="" width="300" height="200"></a> 
-        <figcaption>CodePen</figcaption>
-      </figure>
-      <figure>
-        <a href="https://linkedin.com" target="_blank"><img src="/images/Button-GitHub.png" alt="" width="300" height="200"></a> 
-        <figcaption>LinkedIn</figcaption>
-      </figure>
-    </div>
-  </section>
-
+    </section>
+    <section id="networks">
+      <div>
+        <h2>Find me on the following networks:</h2>
+      </div>
+      <div class="wrapper">
+        <figure>
+          <a href="https://github.com" target="_blank"><img src="/images/Button-GitHub-black.png" alt="" width="150" height="100"></a> 
+          <figcaption>GitHub</figcaption>
+        </figure>
+        <figure>
+          <a href="https://codepen.io" target="_blank"><img src="/images/Button-Codepen.png" alt="" width="150" height="100"></a> 
+          <figcaption>CodePen</figcaption>
+        </figure>
+        <figure>
+          <a href="https://linkedin.com" target="_blank"><img src="/images/Button-GitHub.png" alt="" width="150" height="100"></a> 
+          <figcaption>LinkedIn</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p><small>&copy; Copyright 2022 by Mirco Warnck. All Rights Reserved.</small></p>
+  </footer>
 </body>
-
 </html>

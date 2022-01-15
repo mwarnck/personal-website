@@ -3,9 +3,173 @@
 }
 
 body {
-    background-color: blanchedalmond;
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 112.5%;
+    margin: 0;
+    background-color: beige;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    background-color: cadetblue;
+}
+
+h1 {
+    margin-left: 20px;
+    color: #fff;
+}
+
+h2 {
+    background-color: cadetblue;
+    color: #fff;
+    padding-left: 25px;
+    border-radius: 5px;
+}
+
+nav {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+nav > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links {
+    margin: 5px;
+    list-style-type: none;
+    color: #fff;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.header-img {
+    max-width: auto;
+}
+
+#image-skills {
+    background-color: blanchedalmond;
+}
+
+#biography {
+    background-color: cornsilk;
+}
+
+#contact {
+    background-color: blanchedalmond;
+}
+
+#networks {
+    background-color: cornsilk;
+}
+
+.skills-trans {
+    margin: 0;
+    padding: 0;
+}
+
+.skills-trans > li {
+    list-style-type: none;
+    background-color: grey;
+    margin: 0.5rem;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+main {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 100%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-column {
+    width: 30%;
+    text-align: center;
+    background-color: cornsilk;
+    border-radius: 5px;
+}
+
+.right-column {
+    width: 70%;
+    text-align: center;
+    background-color: cornsilk;
+    border-radius: 5px;
+}
+
+.table-body {
+    background-color: cadetblue;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+th {
+    color: #fff
+}
+
+caption {
+    color: #fff;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: cornsilk;
+    font-weight: bold;
+}
+
+.phone-mail {
+    width: 100%;
+}
+
+.phone {
+    border-color: lightgrey;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.mail {
+    border-color: lightgrey;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+p {
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: cadetblue;
+    color: #fff;
+}
