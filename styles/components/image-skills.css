@@ -1,0 +1,27 @@
+.image-skills {
+  background-color: rgb(255, 255, 255);
+}
+
+.image-skills__illustration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image-skills__header-img {
+  max-width: auto;
+}
+
+.image-skills__skills-trans {
+  margin: 0;
+  padding: 0;
+}
+
+.image-skills__skills-trans > li {
+  list-style-type: none;
+  background-color: lightgray;
+  margin: 0.5rem;
+  border-radius: 10px;
+  text-align: center;
+  padding: 0.5rem;
+}

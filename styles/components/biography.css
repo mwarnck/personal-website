@@ -1,0 +1,10 @@
+.biography {
+  background-color: rgb(255, 255, 255);
+  padding-top: 20px;
+}
+
+.biography__div-bio {
+  width: 500px;
+  margin: auto;
+  height: auto;
+}

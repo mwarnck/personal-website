@@ -1,0 +1,39 @@
+.table {
+  width: 100%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table__left-column {
+  width: 30%;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.table__right-column {
+  width: 70%;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.table__table-body {
+  background-color: cadetblue;
+  padding: 0;
+  margin: auto;
+}
+
+.table__th {
+  color: #fff;
+}
+
+.table__caption {
+  color: #fff;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

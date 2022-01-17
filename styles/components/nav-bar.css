@@ -1,0 +1,17 @@
+.nav {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.nav__ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav__nav-links {
+  margin: 5px;
+  list-style-type: none;
+  color: #fff;
+}
