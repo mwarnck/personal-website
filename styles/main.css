@@ -1,5 +1,6 @@
-@import "./components/footer.css";
+@import "./colors.css";
 @import "./base.css";
+@import "./utility.css";
 @import "./components/header.css";
 @import "./components/nav-bar.css";
 @import "./components/table.css";

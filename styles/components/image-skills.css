@@ -8,16 +8,16 @@
   justify-content: center;
 }
 
-.image-skills__header-img {
+.image-skills__image {
   max-width: auto;
 }
 
-.image-skills__skills-trans {
+.image-skills__list {
   margin: 0;
   padding: 0;
 }
 
-.image-skills__skills-trans > li {
+.image-skills__li-item {
   list-style-type: none;
   background-color: lightgray;
   margin: 0.5rem;
