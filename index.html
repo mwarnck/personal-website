@@ -5,46 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mirco Warnck</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <h1>Mirco Warnck</h1>
-      <nav>
-        <ul>
+      <nav class="nav">
+        <ul class="nav__ul">
           <li>
-            <a class="nav-links" href="#biography">Biography</a>
+            <a class="nav__nav-links" href="#biography">Biography</a>
           </li>
           <li>
-            <a class="nav-links" href="#contact">Contact</a>
+            <a class="nav__nav-links" href="#contact">Contact</a>
           </li>
           <li>
-            <a class="nav-links" href="#networks">Networks</a>
+            <a class="nav__nav-links" href="#networks">Networks</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section id="image-skills" class="wrapper">
-        <figure class="illustration">
+      <section class="image-skills wrapper" id="image-skills">
+        <figure class="image-skills__illustration">
           <img
-            class="header-img"
+            class="image-skills__header-img"
             src="https://source.unsplash.com/random/400x300"
             alt=""
           />
           <figcaption>A random image for illustration</figcaption>
         </figure>
-        <div class="skills">
+        <div>
           <h2>Short facts</h2>
-          <ul class="skills-trans">
+          <ul class="image-skills__skills-trans">
             <li>born in Lübeck</li>
             <li>Bachelor of Science</li>
             <li>Web Developer</li>
             <li>Sports (Running, Fitness)</li>
           </ul>
           <h2>Skills</h2>
-          <ul class="skills-trans">
+          <ul class="image-skills__skills-trans">
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -52,8 +52,8 @@
           </ul>
         </div>
       </section>
-      <section id="biography" class="wrapper">
-        <div class="div-bio">
+      <section class="biography wrapper" id="biography">
+        <div class="biography__div-bio">
           <h2>Biography</h2>
           <div>
             <p>
@@ -68,56 +68,56 @@
             </p>
           </div>
         </div>
-        <div class="table-body">
-          <table>
-            <caption>
+        <div class="table__table-body">
+          <table class="table">
+            <caption class="table__caption">
               CV
             </caption>
             <tbody>
               <tr>
-                <th>Year</th>
-                <th>Station</th>
+                <th class="table__th">Year</th>
+                <th class="table__th">Station</th>
               </tr>
               <tr>
-                <td class="left-column">01/2022 - now</td>
-                <td class="right-column">Bootcamp Web Development</td>
+                <td class="table__left-column">01/2022 - now</td>
+                <td class="table__right-column">Bootcamp Web Development</td>
               </tr>
               <tr>
-                <td class="left-column">04/2017 - 12/2021</td>
-                <td class="right-column">work experience #2</td>
+                <td class="table__left-column">04/2017 - 12/2021</td>
+                <td class="table__right-column">work experience #2</td>
               </tr>
               <tr>
-                <td class="left-column">08/2014 - 03/2017</td>
-                <td class="right-column">work experience #1</td>
+                <td class="table__left-column">08/2014 - 03/2017</td>
+                <td class="table__right-column">work experience #1</td>
               </tr>
               <tr>
-                <td class="left-column">09/2009 - 07/2014</td>
-                <td class="right-column">Bachelor of Science</td>
+                <td class="table__left-column">09/2009 - 07/2014</td>
+                <td class="table__right-column">Bachelor of Science</td>
               </tr>
               <tr>
-                <td class="left-column">06/2009</td>
-                <td class="right-column">Abitur</td>
+                <td class="table__left-column">06/2009</td>
+                <td class="table__right-column">Abitur</td>
               </tr>
             </tbody>
           </table>
         </div>
       </section>
-      <section id="contact" class="wrapper">
-        <div class="phone-mail">
+      <section class="contact wrapper" id="contact">
+        <div class="contact__phone-mail">
           <h2>Contact</h2>
-          <div class="wrapper contact-base">
-            <div class="phone">
+          <div class="wrapper contact__contact-base">
+            <div class="contact__phone">
               <p><strong>Phone:</strong></p>
               <p>+49 / 1234 567890</p>
             </div>
-            <div class="mail">
+            <div class="contact__mail">
               <p><strong>Mail:</strong></p>
               <p><a href="mailto:fish@neuefische.de">fish@neuefische.de</a></p>
             </div>
           </div>
         </div>
       </section>
-      <section id="networks">
+      <section class="networks" id="networks">
         <div>
           <h2>Find me on the following networks:</h2>
         </div>
@@ -155,7 +155,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <p>
         <small
           >&copy; Copyright 2022 by Mirco Warnck. All Rights Reserved.</small
